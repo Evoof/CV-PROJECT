@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Forum', sans-serif;
+}
+.hero {
+   min-height: 90vh;
+    background-color: #f08e80;
+    color: white;
+    display: inline-block;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 24px 32px;
+}
+.nav-bar .links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 16px;
+    font-size: 1.2rem;
+}
+.nav-bar p {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+.nav-bar .contact {
+    background-color: white;
+    color: #f08e80;
+    padding: 16px 24px;
+    text-decoration: none;
+}
+.nav-bar .contact:hover {
+    opacity: 0.8;
+}
+.content {
+    padding: 0 15%;
+}
+.tagline {
+    font-size: 1.5rem;
+    color: white;
+    letter-spacing: 2px;
+}
+.columns {
+    font-size: 2rem;
+}
+.columns > p {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+.columns .skills {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0px;
+    list-style: none;
+}
+.columns .skills li {
+    width: 50%;
+    float: left;
+    font-size: 1.25rem;
+    margin: 8px 0;
+}
+.blog-section {
+    background-color: white;
+    padding: 64px 0;
+}
+.blog-content {
+    padding: 0 15%;
+}
+.columns .blog-posts {
+    width: 50%;
+    float: left;
+}
+.blog-posts {
+    margin-top: 24px;
+}
+.blog-title {
+    font-size: 1.5rem;
+}
+.blog-text {
+    font-size: 1rem;
+}
+.blog-posts .blog-date {
+    color: gray;
+    font-size: 0.9rem;
+    margin-bottom: 32px;
+}
+.blog-posts p {
+    margin: 8px 0;
+}
+.events-section {
+    background-color: #fdf0e6;
+    padding: 64px 0;
+    display: inline-block;
+    width: 100%;
+}
+.event-content {
+    padding: 0 15%;
+}
+.events-card {
+    width: 50%;
+    float: left;
+    margin-top: 24px;
+}
+.events-card p {
+    margin: 8px;
+}
+.event-title {
+    font-size: 1.5rem;
+}
+.event-location {
+    font-size: 1rem;
+}
+.events-card .event-date {
+    font-size: 0.9rem;
+    color: gray;
+    margin-bottom: 32px;
+}
+footer {
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+.footer-content {
+    text-align: center;
+}
+footer img {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 8px;
+}
